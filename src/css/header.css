@@ -110,3 +110,34 @@
   -webkit-transform: rotate(-135deg);
           transform: rotate(-135deg);
 }
+
+.mobile_nav .mobile_nav {
+  padding: 25vw 0 9vw 0;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mobile_nav .mobile_nav .mobile_dep1_ul {
+  text-align: center;
+}
+
+.mobile_nav .mobile_nav .mobile_dep1_ul .mobile_dep1_li {
+  margin-bottom: 6vw;
+}
+
+.mobile_nav .mobile_nav .mobile_dep1_ul .mobile_dep1_li a {
+  font-size: 1.500em;
+  font-weight: 700;
+}
+
+.mobile_nav .mobile_nav .mobile_tel {
+  text-align: center;
+  font-size: 1.250em;
+  font-weight: 700;
+}

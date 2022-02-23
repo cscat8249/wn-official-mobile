@@ -80,5 +80,26 @@
             }
         }
     }
+    .mobile_nav {
+        padding: 25vw 0 9vw 0;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        .mobile_dep1_ul {
+            text-align: center;
+            .mobile_dep1_li {
+                margin-bottom: 6vw;
+                a {
+                    font-size: 1.500em;
+                    font-weight: 700;
+                }
+            }
+        }
+        .mobile_tel {
+            text-align: center;
+            font-size: 1.250em;
+            font-weight: 700;
+        }
+    }
 }
 
