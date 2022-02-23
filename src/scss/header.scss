@@ -43,6 +43,13 @@
     height: 100%;
     background-color: #fdb53d;
     overflow-y: scroll;
+    transition: 0.5s;
+    visibility: hidden;
+    &.on {
+        visibility: visible;
+        left: auto;
+        right: 0px;
+    }
     .mobile_nav_header {
         height: 16vw;
         color: #222;
