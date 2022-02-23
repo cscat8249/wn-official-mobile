@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+*, html, body {
+  font-family: 'NotoSansKR', 'NanumGothic', 'OpenSans',-apple-system, 'sans-serif';
+}
+
+body {
+  max-width: 2560px;
+  min-width: 1300px;
+  margin: 0 auto;
+  line-height: 1.4;
+  letter-spacing: -0.03em;
+  width: 100%;
+  position: relative;
+  font-size: 1rem;
+  color: #222;
+}

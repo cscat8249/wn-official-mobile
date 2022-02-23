@@ -1,0 +1,35 @@
+@charset 'utf-8';
+
+.container {
+    height: 16vw;
+    background-color: #fff;
+    color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    font-size: 18px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    border-bottom: 0.5vw solid #fdb53d;
+    .logo_a {
+        width: 45vw;
+        height: 9vw;
+        font-size: 0;
+        background: url('/wn-official-mobile/src/img/logo/logo_fix_02.png') no-repeat center / cover;
+    }
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 7vw;
+        height: 6vw;
+        cursor: pointer;
+        .line {
+            width: 100%;
+            height: 0.8vw;
+            background-color: #fdb53d;
+        }
+    }
+}

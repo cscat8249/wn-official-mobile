@@ -1,0 +1,104 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, p, span, strong, b, em, iframe, pre, h1, h2, h3, h4, h5, h6,
+img, dl, dt, dd, fieldset, form, legend, label, table, caption, tr, td, th,
+ul, ol, li, a, input, select, textarea, address {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+html {
+    display: block;
+}
+
+/* 목록스타일 제거 */
+ul, ol, li {
+  list-style: none;
+}
+
+/* 글꼴 스타일 제거 */
+em, address {
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+/* 테이블 스타일 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption {
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover, a:focus, a:active, a:visited {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+img {
+  border: 0 none;
+}
+
+button {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    outline: none;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+}
+
+select, input, textarea, a {
+    outline: none;
+}
+
+textarea {
+  appearance: none;
+}
+
+input, textarea {
+  user-select: text;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
