@@ -2,6 +2,7 @@ header {
   top: 0;
   position: -webkit-sticky;
   position: sticky;
+  z-index: 999;
 }
 
 header .container {

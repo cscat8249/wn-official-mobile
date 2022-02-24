@@ -4,6 +4,7 @@
 header {
     top: 0;
     position: sticky;
+    z-index: 999;
     .container {
         height: 16vw;
         background-color: #fff;

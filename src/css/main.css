@@ -1,11 +1,35 @@
-.visual_section {
-  width: 100%;
-  height: 100vh;
-  background-color: aquamarine;
+section {
+  display: block;
 }
 
-.brand_section {
+.affiliateinquiry_section {
+  padding: 22.6666vw 0 44vw;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.affiliateinquiry_section .affiliateinquiry_title_wrap {
+  margin-bottom: 9.3333vw;
+}
+
+.affiliateinquiry_section .affiliateinquiry_title_wrap .title {
+  font-size: 7vw;
+  font-weight: 700;
+}
+
+.affiliateinquiry_section .affiliateinquiry_title_wrap .desc {
+  font-size: 3.7333vw;
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap {
   width: 100%;
-  height: 100vh;
-  background-color: aqua;
+  margin: 0;
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap {
+  width: 85.3333vw;
+  margin: 0 auto 0;
+  background-color: #fef5f0;
+  height: 80vh;
 }
