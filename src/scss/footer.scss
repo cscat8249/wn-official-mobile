@@ -21,7 +21,7 @@ footer {
         }
     }
     .footer_popup_wrap {
-        margin: 3vw 7vw 0vw 4vw;
+        margin: 4vw 0;
         display: flex;
         justify-content: center;
         li {
@@ -50,5 +50,83 @@ footer {
         letter-spacing: -0.04em;
         line-height: 1.5384;
         color: #222;
+        text-align: center;
+        p {
+            margin: 1.5vw 0;
+        }
+    }
+}
+
+#privacypolicy, #termsofuse {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    z-index: 2000;
+    display: none;
+    .modal_inner{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 80%;
+        max-width: 800px;
+        background: #FFF;
+        box-shadow: 5px 5px 13px rgba(0,0,0,0.3);
+        padding: 40px;
+        line-height: 1.6;
+        .pop_content{
+            position: relative;
+            .pop_close{
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 30px;
+                height: 30px;
+                border: none;
+                span{
+                    position: absolute;
+                    top: 14px;
+                    left: 0;
+                    width: 100%;
+                    height: 2px;
+                    background: #222;
+                    transition: transform 0.3s;
+                    &:nth-child(1) {
+                        transform: rotate(45deg);
+                    }
+                    &:nth-child(2) {
+                        transform: rotate(-45deg);
+                    }
+                }
+            }
+            h4 {
+                font-size: 1.1rem;
+                font-weight: bold;
+                letter-spacing: -0.045em;
+                margin-bottom: 15px;
+                padding-bottom: 15px;
+                border-bottom: 1px solid #ddd;
+            }
+            .content {
+                max-height: 350px;
+                overflow-y: scroll;
+                font-size: 14px;
+                table {
+                    margin: 15px 5px 28px 0px;
+                    width: 99%;
+                    text-align: center;
+                    border-collapse: collapse; 
+                    border:1px solid #ccc;
+                    th, td {
+                        border:1px solid #ccc;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                    }
+                }
+            }
+        }
     }
 }
