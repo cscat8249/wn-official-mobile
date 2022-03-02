@@ -41,6 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let agreement = document.querySelector('#agreement');
     let form_submit = document.querySelector('#form_submit');
     
+
     form_submit.addEventListener('click',function(e){
         e.preventDefault();
         if(fullname.value.length === 0) {
@@ -97,25 +98,24 @@ document.addEventListener("DOMContentLoaded", function () {
     
     function LoadingWithMask() {
         //화면의 높이와 너비를 구합니다.
-        var maskHeight = $(document).height();
+        var maskHeight = document.body.scrollHeight;
         var maskWidth  = window.document.body.clientWidth;
-         
         //화면에 출력할 마스크를 설정해줍니다.
-        var mask       ="<div id='mask' style='position:absolute; z-index:9000; background-color:#000000; display:none; left:0; top:0;'></div>";
+        var mask       ="<div id='mask' style='position: fixed; top: 0; left: 0; z-index: 300; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.6); display:none;'></div>";
         var loadingImg ='';
           
-        loadingImg +="<img src='/wn-official/src/img/bg/Spinner.gif' style='position: absolute; top: 50%; left: 45%; display: block; margin: 0px auto;'/>";
+        loadingImg +="<img src='/wn-official/src/img/bg/Spinner.gif' style='position: absolute; top: 110vw; left: 37vw; display: block; margin: 0px auto;'/>";
          
         //화면에 레이어 추가
         $('body')
             .append(mask);
      
         //마스크의 높이와 너비를 화면 것으로 만들어 전체 화면을 채웁니다.
-        $('#mask').css({
-                'width' : maskWidth,
-                'height': maskHeight,
-                'opacity' :'0.3'
-        });
+        // $('#mask').css({
+        //         'width' : maskWidth,
+        //         'height': maskHeight,
+        //         'opacity' :'0.3'
+        // });
       
         //마스크 표시
         $('#mask').show();
