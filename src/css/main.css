@@ -2,6 +2,91 @@ section {
   display: block;
 }
 
+.visual_section {
+  width: 100%;
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.visual_section img {
+  width: 100%;
+  display: block;
+}
+
+.brand_section {
+  width: 100%;
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.brand_section img {
+  width: 100%;
+  display: block;
+}
+
+.brand_section .brand_text_wrap .title {
+  font-family: 'S-CoreDream-6Bold';
+  font-size: 7vw;
+  font-weight: 700;
+}
+
+.brand_section .brand_text_wrap .desc {
+  font-family: 'S-CoreDream-6Bold';
+  padding-left: 1%;
+  font-size: 5vw;
+  font-weight: 700;
+}
+
+.brand_section .brand_text_wrap .point_text {
+  font-family: 'NEXON Lv1 Gothic OTF';
+  margin-top: 6%;
+  margin-bottom: 6%;
+  line-height: 1.7;
+  font-size: 4.2vw;
+}
+
+.brand_section .brand_text_wrap .info_text {
+  font-family: 'NEXON Lv1 Gothic OTF';
+  font-size: 4.2vw;
+}
+
+.brand_section .brand_text_wrap .info_text span {
+  color: #fdb53d;
+}
+
+.brand_section .brand_info_text_wrap .title {
+  font-family: 'S-CoreDream-6Bold';
+  font-size: 5.5vw;
+  font-weight: 700;
+  margin-bottom: 5%;
+}
+
+.brand_section .brand_info_text_wrap .desc {
+  font-family: 'NEXON Lv1 Gothic OTF';
+  line-height: 1.5;
+  font-size: 4.2vw;
+}
+
 .affiliateinquiry_section {
   padding: 22.6666vw 0 44vw;
   position: relative;

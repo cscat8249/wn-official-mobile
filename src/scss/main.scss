@@ -4,6 +4,73 @@ section {
     display: block;
 }
 
+.visual_section {
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+        width: 100%;
+        display: block;
+    }
+}
+
+.brand_section {
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    img {
+        width: 100%;
+        display: block;
+    }
+    .brand_text_wrap {
+        .title {
+            font-family: 'S-CoreDream-6Bold';
+            font-size: 7vw;
+            font-weight: 700;
+        }
+        .desc {
+            font-family: 'S-CoreDream-6Bold';
+            padding-left: 1%;
+            font-size: 5vw;
+            font-weight: 700;
+        }
+        .point_text {
+            font-family: 'NEXON Lv1 Gothic OTF';
+            margin-top: 6%;
+            margin-bottom: 6%;
+            line-height: 1.7;
+            font-size: 4.2vw;
+        }
+        .info_text {
+            font-family: 'NEXON Lv1 Gothic OTF';
+            font-size: 4.2vw;
+            span {
+                color: #fdb53d;
+            }
+        }
+    }
+    .brand_info_text_wrap {
+        .title {
+            font-family: 'S-CoreDream-6Bold';
+            font-size: 5.5vw;
+            font-weight: 700;
+            margin-bottom: 5%;
+        }
+        .desc {
+            font-family: 'NEXON Lv1 Gothic OTF';
+            line-height: 1.5;
+            font-size: 4.2vw;
+        }
+    }
+}
+
+
+
 .affiliateinquiry_section {
     padding: 22.6666vw 0 44vw;
     position: relative;
