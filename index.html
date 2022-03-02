@@ -21,7 +21,8 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script type="text/javascript" src="/wn-official-mobile/src/js/common.js"></script>
     <script type="text/javascript" src="/wn-official/src/js/instafeed.min.js"></script>
-
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript" src="/wn-official/src/js/affiliateinquiry.js"></script>
 </head>
 <body>
     <div id="wrap">
@@ -185,9 +186,9 @@
                                     </div>
                                     <div class="tel_wrap">
                                         <p>연락처</p>
-                                        <input type="text" id="telnumber1" maxlength='3' oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" value="" name="telnumber1">
-                                        <input type="text" id="telnumber2" maxlength='4' oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" value="" name="telnumber2">
-                                        <input type="text" id="telnumber3" maxlength='4' oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" value="" name="telnumber3">
+                                        <input type="number" id="telnumber1" maxlength='3' value="" pattern=”\d*” name="telnumber1">
+                                        <input type="number" id="telnumber2" maxlength='4' value="" pattern=”\d*” name="telnumber2">
+                                        <input type="number" id="telnumber3" maxlength='4' value="" pattern=”\d*” name="telnumber3">
                                     </div>
                                     <div class="hopearea_wrap">
                                         <p class="title">가게 오픈 희망 지역은 어디세요?</p>
