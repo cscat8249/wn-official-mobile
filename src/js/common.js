@@ -24,6 +24,20 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
+    // nav 이동 이벤트
+    document.querySelectorAll('.mobile_nav_wrap ul li a').forEach(li => {
+        li.addEventListener('click',e => {
+            e.preventDefault();
+            document.querySelector(li.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+            mobile_nav.classList.remove('on');
+            btn_state = 0;
+        });
+    });
+
+        
+
     //인스타 피드 이벤트
     const feed = new Instafeed({
         accessToken: 'IGQVJVUDBQd0FnSmtlZA0FmbHNfMi1IN1hpaFJ0UDVNUWFfOVdVeTdBdkRFOXhhWTRuczdQZAExGdlY2R3N6Y2dNS3RyY1BtUXRFMFVrQ2VlOXpKWUhYWldZAbElBcWpUaUYzM1RCdW1wYWl6ZAzBkejF1UwZDZD',
@@ -51,4 +65,11 @@ document.addEventListener("DOMContentLoaded", function () {
     $(".pop_close").click(function(){
         $(".popup_wrap").stop().fadeOut(300)
     }); 
+
+    function close_menu(){
+        $('.mobile-menu').removeClass('on');
+        $('.mobile-nav').removeClass('on');
+        btn = 0;
+    }
+    
 });

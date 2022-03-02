@@ -18,7 +18,7 @@ section {
 
 .brand_section {
     width: 100%;
-    padding: 11vw 0 11vw;
+    padding: 20vw 0 11vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,7 +69,7 @@ section {
     }
 }
 .menu_section {
-    padding: 11vw 0 11vw;
+    padding: 20vw 0 11vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -104,15 +104,16 @@ section {
                         transform: scale(0, 1);
                         transition: 0.5s all ease;
                     }
-                    &:hover {
-                        color: #fdbd3a;
+                }
+                &.active {
+                    a {
                         font-weight: 700;
                         span {
                             transform: scale(1, 1);
-                            transition: 0.5s all ease;
-                            display: block;
-                            width: 100%;
-                            background-color: #fdbd3a;
+                            transition: 0.5s all ease; 
+                            display: block; 
+                            width: 100%; 
+                            background: #fdbd3a;
                         }
                     }
                 }
@@ -147,6 +148,7 @@ section {
 }
 
 .serviceinfo_section {
+    padding: 20vw 0 11vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -162,7 +164,7 @@ section {
 }
 
 .storeinfo_section {
-    padding: 11vw 0 11vw;
+    padding: 20vw 0 11vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -178,7 +180,7 @@ section {
 }
 
 .stroy_section {
-    padding: 11vw 0 11vw;
+    padding: 20vw 0 11vw;
     .stroy_wrap {
         display: flex;
         flex-direction: column;
@@ -221,7 +223,7 @@ section {
 }
 
 .foundedcost_section {
-    padding: 11vw 0 11vw;
+    padding: 20vw 0 11vw;
     .cost_wrap {
         display: flex;
         flex-direction: column;
@@ -237,7 +239,7 @@ section {
 
 
 .affiliateinquiry_section {
-    padding: 11vw 0 11vw;
+    padding: 20vw 0 11vw;
     position: relative;
     z-index: 1;
     text-align: center;
@@ -339,7 +341,7 @@ section {
                     .container {
                         display: block;
                         position: relative;
-                        padding-left: 35px;
+                        padding-left: 9vw;
                         margin-bottom: 12px;
                         cursor: pointer;
                         font-size: 4vw;
