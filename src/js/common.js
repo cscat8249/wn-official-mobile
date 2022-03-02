@@ -23,6 +23,24 @@ document.addEventListener("DOMContentLoaded", function () {
             btn_state = 0;
         }
     });
+
+    //인스타 피드 이벤트
+    const feed = new Instafeed({
+        accessToken: 'IGQVJVUDBQd0FnSmtlZA0FmbHNfMi1IN1hpaFJ0UDVNUWFfOVdVeTdBdkRFOXhhWTRuczdQZAExGdlY2R3N6Y2dNS3RyY1BtUXRFMFVrQ2VlOXpKWUhYWldZAbElBcWpUaUYzM1RCdW1wYWl6ZAzBkejF1UwZDZD',
+        // accessToken: 'IGQVJYeWt4cS1ibmlyNlVtWDU0c3E3RnI5dWhzZAnNKUVF4Y1JzbkZAsc0taZAEJQSXlxRFBBNi1UaUZA6VUtqd3pfUzUxUFlIUzVfcHlVUE9hX0Rody10VXF3ZAU5FSTh5a2s4bE1KYmRCSXNPVXNUd3JudwZDZD',
+        target:'gallery',
+        template: 
+            '<li class="item">'+
+                '<a href="{{link}}" target="_blank">'+
+                    '<img title="{{caption}}" src="{{image}}"/>'+
+                    // '<h3>{{caption}}</h3>'+
+                    // '<div>{{username}}</div>'+
+                '</a>'+
+            '</li>',
+        limit: 2
+    });
+    feed.run();
+
     //footer 이벤트
     $("#privacypolicy_btn").click(function(){
         $("#privacypolicy").stop().fadeIn(300)

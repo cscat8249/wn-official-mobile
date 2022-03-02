@@ -146,6 +146,80 @@ section {
     }
 }
 
+.serviceinfo_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div {
+        margin-top: 4%;
+        margin-bottom: 4%;
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
+}
+
+.storeinfo_section {
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div {
+        margin-top: 4%;
+        margin-bottom: 4%;
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
+}
+
+.stroy_section {
+    .stroy_wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .item {
+                margin: 6%;
+                img {
+                    width: 100%;
+                    display: block;
+                }
+            }
+        }
+        .more_wrap {
+            margin-top: 2%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 25vw;
+                height: 10vw;
+                font-size: 4vw;
+                font-weight: 700;
+                border: 1px solid #ccc;
+                border-radius: 50px;
+                color: #fff;
+                background-color: #fdb53d;
+            }
+        }
+    }
+}
+
+
 
 .affiliateinquiry_section {
     padding: 22.6666vw 0 44vw;

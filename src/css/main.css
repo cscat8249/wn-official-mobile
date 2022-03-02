@@ -203,6 +203,134 @@ section {
   font-size: 4.2vw;
 }
 
+.serviceinfo_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.serviceinfo_section div {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.serviceinfo_section div img {
+  width: 100%;
+  display: block;
+}
+
+.storeinfo_section {
+  margin-top: 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.storeinfo_section div {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.storeinfo_section div img {
+  width: 100%;
+  display: block;
+}
+
+.stroy_section .stroy_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.stroy_section .stroy_wrap .gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.stroy_section .stroy_wrap .gallery .item {
+  margin: 6%;
+}
+
+.stroy_section .stroy_wrap .gallery .item img {
+  width: 100%;
+  display: block;
+}
+
+.stroy_section .stroy_wrap .more_wrap {
+  margin-top: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.stroy_section .stroy_wrap .more_wrap a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25vw;
+  height: 10vw;
+  font-size: 4vw;
+  font-weight: 700;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  color: #fff;
+  background-color: #fdb53d;
+}
+
 .affiliateinquiry_section {
   padding: 22.6666vw 0 44vw;
   position: relative;
