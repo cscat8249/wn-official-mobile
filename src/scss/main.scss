@@ -18,8 +18,7 @@ section {
 
 .brand_section {
     width: 100%;
-    margin-top: 5%;
-    margin-bottom: 7%;
+    padding: 11vw 0 11vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,7 +69,7 @@ section {
     }
 }
 .menu_section {
-    margin-top: 10%;
+    padding: 11vw 0 11vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -83,6 +82,7 @@ section {
         margin-bottom: 5%;
     }
     .menu_dep_wrap {
+        margin-bottom: 8%;
         .dep1_ul {
             display: flex;
             flex-direction: row;
@@ -162,7 +162,7 @@ section {
 }
 
 .storeinfo_section {
-    margin-top: 4%;
+    padding: 11vw 0 11vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -178,6 +178,7 @@ section {
 }
 
 .stroy_section {
+    padding: 11vw 0 11vw;
     .stroy_wrap {
         display: flex;
         flex-direction: column;
@@ -219,21 +220,37 @@ section {
     }
 }
 
+.foundedcost_section {
+    padding: 11vw 0 11vw;
+    .cost_wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
+}
+
 
 
 .affiliateinquiry_section {
-    padding: 22.6666vw 0 44vw;
+    padding: 11vw 0 11vw;
     position: relative;
     z-index: 1;
     text-align: center;
     .affiliateinquiry_title_wrap {
         margin-bottom: 9.3333vw;
         .title {
+            font-family: 'NEXON Lv1 Gothic OTF';
             font-size: 7vw;
             font-weight: 700;
+            margin-bottom: 4%;
         }
         .desc {
-            font-size: 3.7333vw;
+            font-size: 4vw;
         }
     }
     .affiliateinquiry_input_wrap {
@@ -243,7 +260,148 @@ section {
             width: 85.3333vw;
             margin: 0 auto 0;
             background-color: #fef5f0;
-            height: 80vh;
+            .affiliateinquiry_form {
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+                padding-left: 5%;
+                padding-right: 5%;
+                padding-top: 10%;
+                padding-bottom: 10%;
+                font-size: 4vw;
+                .name_wrap {
+                    padding-top: 4%;
+                    padding-bottom: 4%;
+                    p {
+                        padding-bottom: 2%;
+                    }
+                    input {
+                        width: 40%;
+                        height: 8vw;
+                        padding: 0 10px;
+                    }
+                }
+                .tel_wrap {
+                    padding-top: 4%;
+                    padding-bottom: 4%;
+                    p {
+                        padding-bottom: 2%;
+                    }
+                    input {
+                        width: 24%;
+                        height: 8vw;
+                        padding: 0 10px;
+                    }
+                }
+                .hopearea_wrap {
+                    padding-top: 4%;
+                    padding-bottom: 4%;
+                    p {
+                        padding-bottom: 2%;
+                    }
+                    input {
+                        width: 90%;
+                        height: 8vw;
+                        padding: 0 10px;
+                    }
+                }
+                .estimate_wrap {
+                    padding-top: 4%;
+                    padding-bottom: 4%;
+                    p {
+                        padding-bottom: 2%;
+                    }
+                    input {
+                        width: 90%;
+                        height: 8vw;
+                        padding: 0 10px;
+                    }
+                }
+                .question_wrap {
+                    padding-top: 4%;
+                    padding-bottom: 4%;
+                    p {
+                        padding-bottom: 2%;
+                    }
+                    textarea {
+                        width: 100%;
+                        height: 60vw;
+                        border: none;
+                        resize: none;
+                    }
+                }
+                .checkbox_btn_wrap {
+                    margin-top: 2%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    .container {
+                        display: block;
+                        position: relative;
+                        padding-left: 35px;
+                        margin-bottom: 12px;
+                        cursor: pointer;
+                        font-size: 4vw;
+                    }  
+                    /* Hide the browser's default checkbox */
+                    .container input {
+                        position: absolute;
+                        opacity: 0;
+                        cursor: pointer;
+                        height: 0;
+                        width: 0;
+                    }  
+                    /* Create a custom checkbox */
+                    .checkmark {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        height: 6vw;
+                        width: 6vw;
+                        background-color: #fff;
+                    }  
+                    /* On mouse-over, add a grey background color */
+                    .container:hover input ~ .checkmark {
+                        background-color: #ccc;
+                    }
+                    /* When the checkbox is checked, add a "red" background */
+                    .container input:checked ~ .checkmark {
+                        background-color: #fdb53d;
+                    }
+                    /* Create the checkmark/indicator (hidden when not checked) */
+                    .checkmark:after {
+                        content: "";
+                        position: absolute;
+                        display: none;
+                    }  
+                    /* Show the checkmark when checked */
+                    .container input:checked ~ .checkmark:after {
+                        display: block;
+                    }
+                    /* Style the checkmark/indicator */
+                    .container .checkmark:after {
+                        left: 2vw;
+                        top: 0.5vw;
+                        width: 1vw;
+                        height: 3vw;
+                        border: solid white;
+                        border-width: 0 1vw 1vw 0;
+                        transform: rotate(45deg);
+                    }
+                    button {
+                        margin-top: 6%;
+                        border: 1px solid #ccc;
+                        width: 25vw;
+                        height: 10vw;
+                        font-size: 4vw;
+                        font-weight: 700;
+                        border-radius: 50px;
+                        color: #fff;
+                        background-color: #fdb53d;
+                    }
+                }
+            }
         }
     }
 }

@@ -23,8 +23,7 @@ section {
 
 .brand_section {
   width: 100%;
-  margin-top: 5%;
-  margin-bottom: 7%;
+  padding: 11vw 0 11vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -89,7 +88,7 @@ section {
 }
 
 .menu_section {
-  margin-top: 10%;
+  padding: 11vw 0 11vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -111,6 +110,10 @@ section {
   font-weight: 700;
   color: #fdb53d;
   margin-bottom: 5%;
+}
+
+.menu_section .menu_dep_wrap {
+  margin-bottom: 8%;
 }
 
 .menu_section .menu_dep_wrap .dep1_ul {
@@ -230,7 +233,7 @@ section {
 }
 
 .storeinfo_section {
-  margin-top: 4%;
+  padding: 11vw 0 11vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -254,6 +257,10 @@ section {
 .storeinfo_section div img {
   width: 100%;
   display: block;
+}
+
+.stroy_section {
+  padding: 11vw 0 11vw;
 }
 
 .stroy_section .stroy_wrap {
@@ -331,8 +338,33 @@ section {
   background-color: #fdb53d;
 }
 
+.foundedcost_section {
+  padding: 11vw 0 11vw;
+}
+
+.foundedcost_section .cost_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.foundedcost_section .cost_wrap img {
+  width: 100%;
+  display: block;
+}
+
 .affiliateinquiry_section {
-  padding: 22.6666vw 0 44vw;
+  padding: 11vw 0 11vw;
   position: relative;
   z-index: 1;
   text-align: center;
@@ -343,12 +375,14 @@ section {
 }
 
 .affiliateinquiry_section .affiliateinquiry_title_wrap .title {
+  font-family: 'NEXON Lv1 Gothic OTF';
   font-size: 7vw;
   font-weight: 700;
+  margin-bottom: 4%;
 }
 
 .affiliateinquiry_section .affiliateinquiry_title_wrap .desc {
-  font-size: 3.7333vw;
+  font-size: 4vw;
 }
 
 .affiliateinquiry_section .affiliateinquiry_input_wrap {
@@ -360,5 +394,187 @@ section {
   width: 85.3333vw;
   margin: 0 auto 0;
   background-color: #fef5f0;
-  height: 80vh;
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-size: 4vw;
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .name_wrap {
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .name_wrap p {
+  padding-bottom: 2%;
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .name_wrap input {
+  width: 40%;
+  height: 8vw;
+  padding: 0 10px;
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .tel_wrap {
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .tel_wrap p {
+  padding-bottom: 2%;
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .tel_wrap input {
+  width: 24%;
+  height: 8vw;
+  padding: 0 10px;
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .hopearea_wrap {
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .hopearea_wrap p {
+  padding-bottom: 2%;
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .hopearea_wrap input {
+  width: 90%;
+  height: 8vw;
+  padding: 0 10px;
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .estimate_wrap {
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .estimate_wrap p {
+  padding-bottom: 2%;
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .estimate_wrap input {
+  width: 90%;
+  height: 8vw;
+  padding: 0 10px;
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .question_wrap {
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .question_wrap p {
+  padding-bottom: 2%;
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .question_wrap textarea {
+  width: 100%;
+  height: 60vw;
+  border: none;
+  resize: none;
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .checkbox_btn_wrap {
+  margin-top: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* Hide the browser's default checkbox */
+  /* Create a custom checkbox */
+  /* On mouse-over, add a grey background color */
+  /* When the checkbox is checked, add a "red" background */
+  /* Create the checkmark/indicator (hidden when not checked) */
+  /* Show the checkmark when checked */
+  /* Style the checkmark/indicator */
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .checkbox_btn_wrap .container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 4vw;
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .checkbox_btn_wrap .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .checkbox_btn_wrap .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 6vw;
+  width: 6vw;
+  background-color: #fff;
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .checkbox_btn_wrap .container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .checkbox_btn_wrap .container input:checked ~ .checkmark {
+  background-color: #fdb53d;
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .checkbox_btn_wrap .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .checkbox_btn_wrap .container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .checkbox_btn_wrap .container .checkmark:after {
+  left: 2vw;
+  top: 0.5vw;
+  width: 1vw;
+  height: 3vw;
+  border: solid white;
+  border-width: 0 1vw 1vw 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .checkbox_btn_wrap button {
+  margin-top: 6%;
+  border: 1px solid #ccc;
+  width: 25vw;
+  height: 10vw;
+  font-size: 4vw;
+  font-weight: 700;
+  border-radius: 50px;
+  color: #fff;
+  background-color: #fdb53d;
 }

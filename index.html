@@ -164,15 +164,57 @@
                     </div>
                 </div>
             </section>
+            <section id="foundedcost_section" class="foundedcost_section">
+                <div class="cost_wrap">
+                    <img src="/wn-official-mobile/src/img/content/cost_01.png" alt="우리집 놀러와 창업비용">
+                </div>
+            </section>
             <section class="affiliateinquiry_section" id="affiliateinquiry_section">
                 <div class="affiliateinquiry_title_wrap">
                     <h1 class="title">고객센터</h1>
-                    <p class="desc">프리미엄 유통 전문점 우리집놀러와<br/>성공적인 창업을 위한 첫 걸음</p>
+                    <p class="desc">프리미엄 유통 전문점<br/>우리집놀러와, 성공적인 창업을 위한 첫 걸음</p>
                 </div>
                 <div class="affiliateinquiry_input_wrap">
                     <div class="from_wrap">
-                        <form action="" id="affiliateinquiry_form">
-                            
+                        <form action="" id="affiliateinquiry_form" class="affiliateinquiry_form">
+                            <div class="affiliateinquiry_text_wrap">
+                                <div class="affiliateinquiry_text_one">
+                                    <div class="name_wrap">
+                                        <p class="title">성함</p>
+                                        <input type="text" name="name" id="fullname" value="">
+                                    </div>
+                                    <div class="tel_wrap">
+                                        <p>연락처</p>
+                                        <input type="text" id="telnumber1" maxlength='3' oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" value="" name="telnumber1">
+                                        <input type="text" id="telnumber2" maxlength='4' oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" value="" name="telnumber2">
+                                        <input type="text" id="telnumber3" maxlength='4' oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" value="" name="telnumber3">
+                                    </div>
+                                    <div class="hopearea_wrap">
+                                        <p class="title">가게 오픈 희망 지역은 어디세요?</p>
+                                        <input type="text" id="hopearea">
+                                    </div>
+                                    <div class="estimate_wrap">
+                                        <p class="title">창업 예산을 알려주시면 좋아요</p>
+                                        <input type="text" id="estimate">
+                                    </div>
+                                </div>
+                                <div class="affiliateinquiry_text_two">
+                                    <div class="question_wrap">
+                                        <p class="title">기타문의내용을 자유롭게 적어주세요</p>
+                                        <textarea name="etc" id="etc" cols="30" rows="10" onkeyup="chkword(this, 200)"></textarea>
+                                    </div>
+                                    <div class="checkbox_btn_wrap">
+                                        <div class="chekbox_wrap">
+                                            <label class="container">
+                                                <input type="checkbox" value="ok" name="agreement" id="agreement">
+                                                개인정보수집관련 동의
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <button id="form_submit" type="button">문의하기</button>
+                                    </div>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
