@@ -36,19 +36,18 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
+
+    
         
 
     //인스타 피드 이벤트
     const feed = new Instafeed({
-        accessToken: 'IGQVJVUDBQd0FnSmtlZA0FmbHNfMi1IN1hpaFJ0UDVNUWFfOVdVeTdBdkRFOXhhWTRuczdQZAExGdlY2R3N6Y2dNS3RyY1BtUXRFMFVrQ2VlOXpKWUhYWldZAbElBcWpUaUYzM1RCdW1wYWl6ZAzBkejF1UwZDZD',
-        // accessToken: 'IGQVJYeWt4cS1ibmlyNlVtWDU0c3E3RnI5dWhzZAnNKUVF4Y1JzbkZAsc0taZAEJQSXlxRFBBNi1UaUZA6VUtqd3pfUzUxUFlIUzVfcHlVUE9hX0Rody10VXF3ZAU5FSTh5a2s4bE1KYmRCSXNPVXNUd3JudwZDZD',
+        accessToken: 'IGQVJYMFhtWjNUN2tHRTVwaEhHVldQWmpLSTJ6ZA0ZAWb3VQck5JYnZACdmdpSlZATRlI1WmZArUmE0SHRJemVUOVhTdWE5anpsNDRCTHZAyTE9RVkJGUmdRYVc5aGs1b0YtWWtPSUpyRDJFSjVUOFA4a05ydQZDZD',
         target:'gallery',
         template: 
             '<li class="item">'+
                 '<a href="{{link}}" target="_blank">'+
                     '<img title="{{caption}}" src="{{image}}"/>'+
-                    // '<h3>{{caption}}</h3>'+
-                    // '<div>{{username}}</div>'+
                 '</a>'+
             '</li>',
         limit: 2
