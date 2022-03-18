@@ -19,7 +19,10 @@ header {
             width: 45vw;
             height: 9vw;
             font-size: 0;
-            background: url('/wn-official-mobile/src/img/logo/logo_fix_02.png') no-repeat center / cover;
+            img {
+                display: block;
+                width: 100%;
+            }
         }
         .hamburger {
             display: flex;

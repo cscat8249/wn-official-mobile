@@ -360,7 +360,9 @@ section {
 }
 
 .stroy_section {
-  padding: 20vw 0 11vw;
+  margin: 0vw 0;
+  padding: 11vw 0 0;
+  height: auto;
 }
 
 .stroy_section .stroy_wrap {
