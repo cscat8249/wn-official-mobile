@@ -92,7 +92,8 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #fef5f0;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #ffffff), color-stop(50%, #fdb53d));
+  background: linear-gradient(#ffffff 50%, #fdb53d 50%);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -110,7 +111,6 @@ section {
   font-size: 8vw;
   font-weight: 700;
   color: #fdb53d;
-  margin-bottom: 4vw;
 }
 
 .menu_section .menu_dep_wrap {
@@ -171,7 +171,6 @@ section {
 }
 
 .menu_section .menu_items_wrap {
-  margin-top: 3vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -222,7 +221,6 @@ section {
 .menu_section .menu_items_wrap .menu_items_box_wrap .menu_items .item .item_view {
   margin-left: 7%;
   margin-right: 7%;
-  background: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -254,6 +252,7 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-radius: 7%;
 }
 
 .menu_section .menu_items_wrap .menu_items_box_wrap .menu_items .item .item_view .img_wrap img {
@@ -298,11 +297,11 @@ section {
   height: 8vw;
   font-size: 14px;
   font-weight: 700;
-  border: 1px solid #ccc;
+  border: 1px solid #222;
   border-radius: 10px;
   line-height: 3;
-  background-color: #fdb53d;
-  color: #fff;
+  background-color: #fff;
+  color: #222;
 }
 
 .serviceinfo_section {

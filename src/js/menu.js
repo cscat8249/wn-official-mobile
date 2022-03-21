@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function menuitemListajax(mod){
         let modItem = '';
         if(mod == null || mod == '') {
-            modItem = 'meat';
+            modItem = 'all';
         } else {
             modItem = mod;
         }

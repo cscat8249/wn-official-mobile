@@ -126,9 +126,10 @@
 }
 
 .menu_section .menu_items_wrap .menu_content .text_wrap p {
+  font-family: 'NEXON Lv1 Gothic OTF';
   display: block;
   font-size: 4vw;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .item_reference {

@@ -1,12 +1,10 @@
 
 function menuitemViewajax(id, catagory) {
     catagory = document.querySelector('#catagory').value;
-    console.log(catagory);
     var mod = {
         "catagory": catagory,
         "id" : id
     }
-    console.log(mod);
     $.ajax({
         url:'http://wn-official.com/menu/viewboard2.php',
         type:'get',

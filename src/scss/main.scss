@@ -70,9 +70,8 @@ section {
 }
 .menu_section {
     padding: 25vw 0 11vw;
-    // height: 120vw;
     display: flex;
-    background-color: #fef5f0;
+    background: linear-gradient(#ffffff 50%, #fdb53d 50%);
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -81,7 +80,7 @@ section {
         font-size: 8vw;
         font-weight: 700;
         color: #fdb53d;
-        margin-bottom: 4vw;
+        // margin-bottom: 4vw;
     }
     .menu_dep_wrap {
         margin-bottom: 6vw;
@@ -123,7 +122,7 @@ section {
         }
     }
     .menu_items_wrap {
-        margin-top: 3vw;
+        // margin-top: 3vw;
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -146,7 +145,7 @@ section {
                     .item_view {
                         margin-left: 7%;
                         margin-right: 7%;
-                        background: #fff;
+                        // background: #fff;
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
@@ -161,6 +160,7 @@ section {
                             display: flex;
                             justify-content: center;
                             align-items: center;
+                            border-radius: 7%;
                             img {
                                 display: block;
                                 width: 100%;
@@ -191,11 +191,11 @@ section {
                 height: 8vw;
                 font-size: 14px;
                 font-weight: 700;
-                border: 1px solid #ccc;
+                border: 1px solid #222;
                 border-radius: 10px;
                 line-height: 3;
-                background-color: #fdb53d;
-                color: #fff;
+                background-color: #fff;
+                color: #222;
             }
         }
     }

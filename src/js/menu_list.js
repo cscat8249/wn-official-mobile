@@ -101,7 +101,6 @@ function next_load(){
     } else {
         var page_start = secondpage * secondlist;
     }
-    console.log("page_start ==>" + page_start);
     $.ajax({
         type:"GET",
         url:"http://wn-official.com/mobile/menu/item_list.php",
