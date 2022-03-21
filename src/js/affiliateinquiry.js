@@ -30,6 +30,8 @@ function chkword(obj, maxByte) {
     }
 }
 
+
+
 document.addEventListener("DOMContentLoaded", function () {
     let fullname = document.querySelector('#fullname');
     let telnumber1 = document.querySelector('#telnumber1');
@@ -41,6 +43,17 @@ document.addEventListener("DOMContentLoaded", function () {
     let agreement = document.querySelector('#agreement');
     let form_submit = document.querySelector('#form_submit');
     
+    $('#telnumber1').on('keyup', function() {
+        if(this.value.length == 3) {
+           $('#telnumber2').focus();
+        }
+    });
+
+    $('#telnumber2').on('keyup', function() {
+        if(this.value.length == 4) {
+           $('#telnumber3').focus();
+        }
+    });
 
     form_submit.addEventListener('click',function(e){
         e.preventDefault();

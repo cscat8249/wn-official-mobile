@@ -23,9 +23,13 @@ section {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    img {
+    .brand_info_img_wrap {
         width: 100%;
-        display: block;
+        height: auto;
+        img {
+            width: 100%;
+            display: block;
+        }
     }
     .brand_text_wrap {
         .title {
@@ -71,7 +75,7 @@ section {
 .menu_section {
     padding: 25vw 0 11vw;
     display: flex;
-    background: linear-gradient(#ffffff 50%, #fdb53d 50%);
+    background: linear-gradient(#ffffff 60%, #fbcc56 40%);
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -143,8 +147,8 @@ section {
                     justify-content: center;
                     align-items: center;
                     .item_view {
-                        margin-left: 7%;
-                        margin-right: 7%;
+                        // margin-left: 2vw;
+                        // margin-right: 2vw;
                         // background: #fff;
                         display: flex;
                         flex-direction: column;
@@ -153,7 +157,7 @@ section {
                         border-radius: 6%;
                         overflow: hidden;
                         .img_wrap {
-                            width: 100%;
+                            width: 80vw;
                             height: 100%;
                             position: relative;
                             overflow: hidden;
@@ -189,13 +193,12 @@ section {
                 align-items: center;
                 width: 30vw;
                 height: 8vw;
-                font-size: 14px;
+                font-size: 4vw;
                 font-weight: 700;
-                border: 1px solid #222;
-                border-radius: 10px;
+                border-radius: 4vw;
                 line-height: 3;
                 background-color: #fff;
-                color: #222;
+                color: #fbcc56;
             }
         }
     }
@@ -208,6 +211,7 @@ section {
     justify-content: center;
     align-items: center;
     div {
+        width: 100%;
         margin-top: 4%;
         margin-bottom: 4%;
         img {
@@ -224,6 +228,7 @@ section {
     justify-content: center;
     align-items: center;
     div {
+        width: 100%;
         margin-top: 4%;
         margin-bottom: 4%;
         img {
@@ -235,7 +240,7 @@ section {
 
 .stroy_section {
     margin: 0vw 0;
-    padding: 11vw 0 0;
+    padding: 15vw 0 0;
     height: auto;
     .stroy_wrap {
         display: flex;

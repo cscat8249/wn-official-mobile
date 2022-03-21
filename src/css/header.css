@@ -161,17 +161,17 @@ header .container .hamburger .line {
 }
 
 .mobile_nav .nav_wrap .mobile_nav_wrap .mobile_dep1_ul .mobile_dep1_li a {
-  font-size: 1.500rem;
+  font-size: 5vw;
   font-weight: 700;
 }
 
 .mobile_nav .nav_wrap .mobile_nav_wrap .mobile_tel {
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 5vw;
   font-weight: 700;
 }
 
 .mobile_nav .nav_wrap .mobile_nav_wrap .mobile_tel i {
   line-height: inherit;
-  font-size: 1rem;
+  font-size: 4vw;
 }

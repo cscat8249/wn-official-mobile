@@ -39,7 +39,12 @@ section {
           flex-direction: column;
 }
 
-.brand_section img {
+.brand_section .brand_info_img_wrap {
+  width: 100%;
+  height: auto;
+}
+
+.brand_section .brand_info_img_wrap img {
   width: 100%;
   display: block;
 }
@@ -92,8 +97,8 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #ffffff), color-stop(50%, #fdb53d));
-  background: linear-gradient(#ffffff 50%, #fdb53d 50%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #ffffff), color-stop(40%, #fbcc56));
+  background: linear-gradient(#ffffff 60%, #fbcc56 40%);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -219,8 +224,6 @@ section {
 }
 
 .menu_section .menu_items_wrap .menu_items_box_wrap .menu_items .item .item_view {
-  margin-left: 7%;
-  margin-right: 7%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -239,7 +242,7 @@ section {
 }
 
 .menu_section .menu_items_wrap .menu_items_box_wrap .menu_items .item .item_view .img_wrap {
-  width: 100%;
+  width: 80vw;
   height: 100%;
   position: relative;
   overflow: hidden;
@@ -295,13 +298,12 @@ section {
           align-items: center;
   width: 30vw;
   height: 8vw;
-  font-size: 14px;
+  font-size: 4vw;
   font-weight: 700;
-  border: 1px solid #222;
-  border-radius: 10px;
+  border-radius: 4vw;
   line-height: 3;
   background-color: #fff;
-  color: #222;
+  color: #fbcc56;
 }
 
 .serviceinfo_section {
@@ -322,6 +324,7 @@ section {
 }
 
 .serviceinfo_section div {
+  width: 100%;
   margin-top: 4%;
   margin-bottom: 4%;
 }
@@ -349,6 +352,7 @@ section {
 }
 
 .storeinfo_section div {
+  width: 100%;
   margin-top: 4%;
   margin-bottom: 4%;
 }
@@ -360,7 +364,7 @@ section {
 
 .stroy_section {
   margin: 0vw 0;
-  padding: 11vw 0 0;
+  padding: 15vw 0 0;
   height: auto;
 }
 
