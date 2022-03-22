@@ -6,13 +6,14 @@ function menuitemViewajax(id, catagory) {
         "id" : id
     }
     $.ajax({
-        url:'http://wn-official.com/menu/viewboard2.php',
+        url:'http://m.wn-official.com/menu/viewboard2.php',
         type:'get',
         data: mod,
         dataType:'json',
     }).done(function(data){
         var length = data.menu_id.length; 
         var htmlArr=[]; 
+        var hashtagArr =[];
         var html = '';
         for(var i=0; i < length; i++){
             if(data.pre[i] == null || data.pre[i] == '') {
@@ -65,7 +66,12 @@ function menuitemViewajax(id, catagory) {
             html += "<div class='item_summary'>";
             html += "<p class='title'>상품정보</p>";
             html += "<p class='desc'>";
-            html +=  data.summary[i];
+            // html +=  data.summary[i];
+            const str = data.hashtag[i];
+            const arr = str.split(",");
+            for(let j=0; j < arr.length; j++){
+                html += arr[j];
+            }
             html += "</p>";
             html += "</div>";
             html += "<div class='item_origin'>";

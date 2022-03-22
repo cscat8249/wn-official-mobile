@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         // $('#menu_content').append(html);
         $.ajax({
-            url:'http://wn-official.com/mobile/menu/item_list.php',
+            url:'http://m.wn-official.com/menu/item_list.php',
             type:'GET',
             data: mod,
             dataType:'json',
@@ -103,7 +103,7 @@ function next_load(){
     }
     $.ajax({
         type:"GET",
-        url:"http://wn-official.com/mobile/menu/item_list.php",
+        url:"http://m.wn-official.com/menu/item_list.php",
         data: {
             'mod' : catagory,
             'list' : secondlist, 
