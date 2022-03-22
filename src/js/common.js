@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+    $('img[usemap]').rwdImageMaps();
     let hamburger = document.querySelector('.hamburger');
     let mobile_nav = document.querySelector('.mobile_nav');
     // let close_wrap = document.querySelector('.close_wrap');

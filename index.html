@@ -34,6 +34,7 @@
     <script type="text/javascript" src="/wn-official-mobile/src/js/menu.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript" src="/wn-official-mobile/src/js/affiliateinquiry.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.js"></script>
     <!-- <script>
         if (document.location.protocol == 'http:') {
             document.location.href = document.location.href.replace('http:', 'https:');
@@ -58,7 +59,10 @@
         </header>
         <div id="content">
             <section id="visual_section" class="visual_section">
-                <img src="/wn-official-mobile/src/img/content/visual.png" alt="우리집 놀러와 비주얼">
+                <img src="/wn-official-mobile/src/img/content/visual.png" alt="우리집 놀러와 비주얼" usemap="#tel-map">
+                <map name="tel-map">
+                    <area target="" alt="우리집 놀러와 창업문의" title="우리집 놀러와 창업문의" href="tel:1566-1635" coords="221,501,559,569" shape="rect">
+                </map>
             </section>
             <section id="brand_section" class="brand_section">
                 <div class="brand_info_img_wrap">
@@ -148,13 +152,16 @@
             </section>
             <section id="serviceinfo_section" class="serviceinfo_section">
                 <div class="advertisement_wrap">
-                    <img src="/wn-official-mobile/src/img/content/adv_img.png" alt="우리집 놀러와 광고">
+                    <img src="/wn-official-mobile/src/img/content/adv_img.png" alt="우리집 놀러와 광고 소개방법">
                 </div>
                 <div class="technology_wrap">
-                    <img src="/wn-official-mobile/src/img/content/technology_img.png" alt="우리집 놀러와 기술">
+                    <img src="/wn-official-mobile/src/img/content/technology_img.png" alt="우리집 놀러와 홍보순서도">
+                </div>
+                <div class="technology_wrap">
+                    <img src="/wn-official-mobile/src/img/content/technology2_img.png" alt="우리집 놀러와 기술 협력업체">
                 </div>
             </section>
-            <section id="storeinfo_section" class="storeinfo_section">
+            <section id="cooperation_wrap" class="cooperation_wrap">
                 <div class="partner_img_wrap">
                     <img src="/wn-official-mobile/src/img/content/cooperation.png" alt="우리집 놀러와 협력업체"/>
                 </div>
@@ -164,7 +171,23 @@
             </section>
             <section id="storeinfo_section" class="storeinfo_section">
                 <div class="smartmarket_img_wrap">
-                    <img src="/wn-official-mobile/src/img/content/storeinfo_img.png" usemap="#imagemap" alt="우리집 매장체험 안내">
+                    <img src="/wn-official-mobile/src/img/content/storeinfo1_img.png" alt="우리집 놀러와 창업자 사진">
+                </div>
+                <div class="smartmarket_info_wrap">
+                    <div class="smartmarket_text_wrap">
+                        <h1 class="title">오직, 밥상을 준비하는 분들에게<br/>집중한 체험공간</h1>
+                        <p class="special_text">"특별한 요리를 경험하세요"</p>
+                        <p class="joy_text">뜯고 담고 굽고 즐기고 ♬</p>
+                    </div>
+                    <div class="smartmarket_button_wrap">
+                        <div class="menu_btn_more_wrap">
+                            <a href="/wn-official-mobile/smartStor/index.html">체험매장 둘러보기</a>
+                        </div>
+                    </div>
+                    <div class="smartmarket_point_wrap">
+                        <p class="pointone">예약고객에게 드시고 싶은 요리<br/>한가지를 무료로 드립니다.</p>
+                        <p class="pointtwo">※매장체험은 예약없이도 이용가능합니다.<br/>(단,예약시 선물 증정)</p>
+                    </div>
                 </div>
             </section>
             <section id="stroy_section" class="stroy_section">
@@ -300,6 +323,23 @@
                     </li>
                 </ul>
                 <a href="tel:1566-1635" class="mobile_tel">가맹문의<i class="material-icons">phone</i> 1566-1635</a>
+                <ul class="mobile_sns_dep1_ul">
+                    <li class="mobile_sns_dep1_li">
+                        <a href="#">
+                            <img src="/wn-official-mobile/src/img/icon/naver.png" alt="우리집놀러와 네이버스토어">
+                        </a>
+                    </li>
+                    <li class="mobile_sns_dep1_li">
+                        <a href="https://www.instagram.com/wn_official_top/" target="_blank">
+                            <img src="/wn-official-mobile/src/img/icon/instar.png" alt="우리집놀러와 인스타그램">
+                        </a>
+                    </li>
+                    <li class="mobile_sns_dep1_li">
+                        <a href="http://pf.kakao.com/_qGLwK" target="_blank">
+                            <img src="/wn-official-mobile/src/img/icon/kakao.png" alt="우리집놀러와 인스타그램">
+                        </a>
+                    </li>
+                </ul>
             </nav>
         </div>
     </div>

@@ -126,6 +126,24 @@ header {
                     font-size: 4vw;
                 }
             }
+            .mobile_sns_dep1_ul {
+                margin-top: 6vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .mobile_sns_dep1_li {
+                    width: 11vw;
+                    margin-right: 6vw;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                    img {
+                        display: block;
+                        width: 100%;
+                    }
+                }
+               
+            }
         }
     }
 }

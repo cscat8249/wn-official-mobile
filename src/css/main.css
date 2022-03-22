@@ -4,7 +4,6 @@ section {
 
 .visual_section {
   width: 100%;
-  margin-top: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -23,7 +22,7 @@ section {
 
 .brand_section {
   width: 100%;
-  padding: 20vw 0 11vw;
+  padding: 22vw 0 0vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,13 +39,17 @@ section {
 }
 
 .brand_section .brand_info_img_wrap {
-  width: 100%;
+  width: 87vw;
   height: auto;
 }
 
 .brand_section .brand_info_img_wrap img {
   width: 100%;
   display: block;
+}
+
+.brand_section .brand_text_wrap {
+  margin-top: 5vw;
 }
 
 .brand_section .brand_text_wrap .title {
@@ -77,6 +80,18 @@ section {
 
 .brand_section .brand_text_wrap .info_text span {
   color: #fdbd3a;
+}
+
+.brand_section .brand_wrap_3go {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  width: 80vw;
+  height: auto;
+}
+
+.brand_section .brand_wrap_3go img {
+  width: 100%;
+  display: block;
 }
 
 .brand_section .brand_info_text_wrap .title {
@@ -307,7 +322,7 @@ section {
 }
 
 .serviceinfo_section {
-  padding: 20vw 0 11vw;
+  padding: 20vw 0 3vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -324,7 +339,7 @@ section {
 }
 
 .serviceinfo_section div {
-  width: 100%;
+  width: 88vw;
   margin-top: 4%;
   margin-bottom: 4%;
 }
@@ -334,8 +349,8 @@ section {
   display: block;
 }
 
-.storeinfo_section {
-  padding: 20vw 0 11vw;
+.cooperation_wrap {
+  padding-bottom: 11vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -351,15 +366,110 @@ section {
           align-items: center;
 }
 
-.storeinfo_section div {
-  width: 100%;
+.cooperation_wrap div {
+  width: 88vw;
   margin-top: 4%;
   margin-bottom: 4%;
 }
 
-.storeinfo_section div img {
+.cooperation_wrap div img {
   width: 100%;
   display: block;
+}
+
+.storeinfo_section {
+  padding: 22vw 0 11vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffd96a;
+  font-family: 'NEXON Lv1 Gothic OTF';
+}
+
+.storeinfo_section .smartmarket_img_wrap {
+  width: 100%;
+  height: auto;
+}
+
+.storeinfo_section .smartmarket_img_wrap img {
+  width: 100%;
+  display: block;
+}
+
+.storeinfo_section .smartmarket_info_wrap .smartmarket_text_wrap {
+  color: #fff;
+}
+
+.storeinfo_section .smartmarket_info_wrap .smartmarket_text_wrap .title {
+  margin-top: -20vw;
+  font-size: 6vw;
+}
+
+.storeinfo_section .smartmarket_info_wrap .smartmarket_text_wrap .special_text {
+  margin-top: 3vw;
+  font-size: 4.4vw;
+  margin-bottom: 2vw;
+}
+
+.storeinfo_section .smartmarket_info_wrap .smartmarket_text_wrap .joy_text {
+  margin-bottom: 2vw;
+  font-size: 5vw;
+}
+
+.storeinfo_section .smartmarket_info_wrap .smartmarket_button_wrap {
+  margin-top: 6vw;
+  margin-bottom: 6vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.storeinfo_section .smartmarket_info_wrap .smartmarket_button_wrap a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 43vw;
+  height: 9vw;
+  font-size: 4.4vw;
+  font-weight: 700;
+  border-radius: 4vw;
+  line-height: 3;
+  background-color: #fff;
+  color: #222;
+}
+
+.storeinfo_section .smartmarket_info_wrap .smartmarket_point_wrap {
+  color: #666;
+}
+
+.storeinfo_section .smartmarket_info_wrap .smartmarket_point_wrap .pointone {
+  font-family: 'S-CoreDream-6Bold';
+  font-size: 3.8vw;
+}
+
+.storeinfo_section .smartmarket_info_wrap .smartmarket_point_wrap .pointtwo {
+  font-family: 'S-CoreDream-3Light';
+  font-size: 3.8vw;
 }
 
 .stroy_section {

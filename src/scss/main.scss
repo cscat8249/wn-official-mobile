@@ -6,7 +6,6 @@ section {
 
 .visual_section {
     width: 100%;
-    margin-top: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,13 +17,13 @@ section {
 
 .brand_section {
     width: 100%;
-    padding: 20vw 0 11vw;
+    padding: 22vw 0 0vw;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     .brand_info_img_wrap {
-        width: 100%;
+        width: 87vw;
         height: auto;
         img {
             width: 100%;
@@ -32,6 +31,7 @@ section {
         }
     }
     .brand_text_wrap {
+        margin-top: 5vw;
         .title {
             font-family: 'S-CoreDream-6Bold';
             font-size: 7vw;
@@ -58,6 +58,17 @@ section {
             }
         }
     }
+    .brand_wrap_3go {
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+        width: 80vw;
+        height: auto;
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
+
     .brand_info_text_wrap {
         .title {
             font-family: 'S-CoreDream-6Bold';
@@ -205,13 +216,30 @@ section {
 }
 
 .serviceinfo_section {
-    padding: 20vw 0 11vw;
+    padding: 20vw 0 3vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     div {
-        width: 100%;
+        width: 88vw;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
+}
+
+.cooperation_wrap {
+    padding-bottom: 11vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div {
+        width: 88vw;
         margin-top: 4%;
         margin-bottom: 4%;
         img {
@@ -222,20 +250,73 @@ section {
 }
 
 .storeinfo_section {
-    padding: 20vw 0 11vw;
+    padding: 22vw 0 11vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    // justify-content: center;
     align-items: center;
-    div {
+    background-color: #ffd96a;
+    font-family: 'NEXON Lv1 Gothic OTF';
+    .smartmarket_img_wrap {
         width: 100%;
-        margin-top: 4%;
-        margin-bottom: 4%;
+        height: auto;
         img {
             width: 100%;
             display: block;
         }
     }
+    .smartmarket_info_wrap {
+        .smartmarket_text_wrap {
+            color: #fff;
+            .title {
+                margin-top: -20vw;
+                font-size: 6vw;
+                
+            }
+            .special_text {
+                margin-top: 3vw;
+                font-size: 4.4vw;
+                margin-bottom: 2vw;
+            }
+            .joy_text {
+                margin-bottom: 2vw;
+                font-size: 5vw;
+            }
+        }
+        .smartmarket_button_wrap {
+            margin-top: 6vw;
+            margin-bottom: 6vw;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            text-align: center;
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 43vw;
+                height: 9vw;
+                font-size: 4.4vw;
+                font-weight: 700;
+                border-radius: 4vw;
+                line-height: 3;
+                background-color: #fff;
+                color: #222;
+            }
+        }
+        .smartmarket_point_wrap {
+            color: #666;
+            .pointone {
+                font-family: 'S-CoreDream-6Bold';
+                font-size: 3.8vw;
+            }
+            .pointtwo {
+                font-family: 'S-CoreDream-3Light';
+                font-size: 3.8vw;
+            }
+        }
+    }
+    
 }
 
 .stroy_section {
