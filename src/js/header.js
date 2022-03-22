@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+    $('img[usemap]').rwdImageMaps();
     let mobile_nav = document.querySelector('.mobile_nav');
     
     // nav 이동 이벤트
