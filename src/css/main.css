@@ -76,7 +76,7 @@ section {
 }
 
 .brand_section .brand_text_wrap .info_text span {
-  color: #fdb53d;
+  color: #fdbd3a;
 }
 
 .brand_section .brand_info_text_wrap .title {
@@ -115,7 +115,7 @@ section {
   font-family: 'S-CoreDream-6Bold';
   font-size: 8vw;
   font-weight: 700;
-  color: #fdb53d;
+  color: #fdbd3a;
 }
 
 .menu_section .menu_dep_wrap {
@@ -440,7 +440,7 @@ section {
   border: 1px solid #ccc;
   border-radius: 50px;
   color: #fff;
-  background-color: #fdb53d;
+  background-color: #fdbd3a;
 }
 
 .foundedcost_section {
@@ -648,7 +648,7 @@ section {
 }
 
 .affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .checkbox_btn_wrap .container input:checked ~ .checkmark {
-  background-color: #fdb53d;
+  background-color: #fdbd3a;
 }
 
 .affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .checkbox_btn_wrap .checkmark:after {
@@ -681,5 +681,5 @@ section {
   font-weight: 700;
   border-radius: 50px;
   color: #fff;
-  background-color: #fdb53d;
+  background-color: #fdbd3a;
 }

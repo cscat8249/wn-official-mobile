@@ -19,7 +19,7 @@
   font-family: 'S-CoreDream-6Bold';
   font-size: 8vw;
   font-weight: 700;
-  color: #fdb53d;
+  color: #fdbd3a;
   margin-bottom: 4vw;
 }
 
@@ -227,7 +227,7 @@
 }
 
 .item_reference .modal_inner .pop_content .content .menu_next:hover {
-  color: #fdb53d;
+  color: #fdbd3a;
 }
 
 .item_reference .modal_inner .pop_content .content .menu_next i {
@@ -247,7 +247,7 @@
 }
 
 .item_reference .modal_inner .pop_content .content .menu_prev:hover {
-  color: #fdb53d;
+  color: #fdbd3a;
 }
 
 .item_reference .modal_inner .pop_content .content .menu_prev i {
