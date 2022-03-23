@@ -1,1 +1,279 @@
-/* No CSS */
+.smartstor_section img {
+  width: 100%;
+  display: block;
+}
+
+.stormap_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+}
+
+.stormap_section .title_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 5vw;
+}
+
+.stormap_section .title_wrap .title {
+  font-size: 6vw;
+  font-weight: 700;
+  margin-bottom: 1%;
+}
+
+.stormap_section .title_wrap .desc {
+  font-size: 3.3vw;
+  font-weight: 500;
+}
+
+.stormap_section .img_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.stormap_section .img_wrap img {
+  display: block;
+  width: 88vw;
+}
+
+.experience_section img {
+  width: 100%;
+  display: block;
+}
+
+.interior_section {
+  margin-top: 4vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin-bottom: 4vw;
+}
+
+.interior_section .title_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 5vw;
+}
+
+.interior_section .title_wrap .title {
+  font-size: 6vw;
+  font-weight: 700;
+  margin-bottom: 1%;
+}
+
+.interior_section .title_wrap .desc {
+  font-size: 3.3vw;
+  font-weight: 500;
+}
+
+.interior_section .market_img_wrap {
+  position: relative;
+  margin-top: 3vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.interior_section .market_img_wrap .market_img_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 77vw;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.interior_section .market_img_wrap .market_img_items .item {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.interior_section .market_img_wrap .market_img_items .item img {
+  display: block;
+  width: 100%;
+}
+
+.interior_section .market_img_wrap .circleL_icon {
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  border: 1px solid #ccc;
+  color: #222;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 6%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 99;
+}
+
+.interior_section .market_img_wrap .circleL_icon i {
+  font-size: 6vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.interior_section .market_img_wrap .circleR_icon {
+  display: block;
+  width: 8vw;
+  height: 8vw;
+  border: 1px solid #ccc;
+  color: #222;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: 6%;
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+  z-index: 99;
+}
+
+.interior_section .market_img_wrap .circleR_icon i {
+  font-size: 6vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.smartdevice_section {
+  margin-top: 7vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+.smartdevice_section .title_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 5vw;
+}
+
+.smartdevice_section .title_wrap .title {
+  font-size: 6vw;
+  font-weight: 700;
+  margin-bottom: 1%;
+}
+
+.smartdevice_section .title_wrap .desc {
+  font-size: 3.3vw;
+  font-weight: 500;
+}
+
+.drawing_section {
+  margin-top: 3vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+.drawing_section img {
+  display: block;
+  width: 100%;
+}
