@@ -33,10 +33,10 @@
             align-content: center;
             .title_text {
                 font-family: 'S-CoreDream-3Light';
-                font-size: 4vw;
+                font-size: 3vw;
             }
             .bold_text {
-                font-family: 'NEXON Lv1 Gothic OTF';
+                font-family: 'S-CoreDream-6Bold';
                 margin: 5vw 0;
                 font-weight: 700;
                 line-height: 1.1;
@@ -115,6 +115,7 @@
             .info_1 {
                 position: absolute;
                 font-family: 'S-CoreDream-3Light';
+                // font-weight: 600;
                 top: 10vw;
                 left: 19vw;
                 font-size: 4.5vw;
@@ -130,8 +131,8 @@
             }
             .info_2 {
                 position: absolute;
-                font-family: 'NEXON Lv1 Gothic OTF';
-                font-weight: 700;
+                font-family: 'S-CoreDream-6Bold';
+                // font-weight: 700;
                 font-size: 5vw;
                 top: 40vw;
                 left: 18vw;

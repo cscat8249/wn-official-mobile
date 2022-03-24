@@ -66,11 +66,11 @@
 
 #content .smartstor_section .text_wrap .title_text {
   font-family: 'S-CoreDream-3Light';
-  font-size: 4vw;
+  font-size: 3vw;
 }
 
 #content .smartstor_section .text_wrap .bold_text {
-  font-family: 'NEXON Lv1 Gothic OTF';
+  font-family: 'S-CoreDream-6Bold';
   margin: 5vw 0;
   font-weight: 700;
   line-height: 1.1;
@@ -214,8 +214,7 @@
 
 #content .stormap_section .info_wrap .info_2 {
   position: absolute;
-  font-family: 'NEXON Lv1 Gothic OTF';
-  font-weight: 700;
+  font-family: 'S-CoreDream-6Bold';
   font-size: 5vw;
   top: 40vw;
   left: 18vw;
