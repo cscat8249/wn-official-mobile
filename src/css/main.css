@@ -3,6 +3,7 @@ section {
 }
 
 .visual_section {
+  margin: 1vw 0;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21,8 +22,10 @@ section {
 }
 
 .brand_section {
+  margin: 1vw 0;
+  padding-top: 22vw;
   width: 100%;
-  padding: 22vw 0 0vw;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -83,6 +86,7 @@ section {
 }
 
 .brand_section .brand_wrap_3go {
+  margin: 0;
   padding-top: 4vw;
   padding-bottom: 4vw;
   width: 80vw;
@@ -108,7 +112,9 @@ section {
 }
 
 .menu_section {
-  padding: 25vw 0 11vw;
+  margin: 1vw 0;
+  height: 134vw;
+  padding-top: 22vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -191,6 +197,7 @@ section {
 }
 
 .menu_section .menu_items_wrap {
+  margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -288,7 +295,7 @@ section {
 }
 
 .menu_section .menu_items_wrap .menu_btn_more_wrap {
-  margin-top: 7vw;
+  margin: 7vw 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -322,7 +329,10 @@ section {
 }
 
 .serviceinfo_section {
-  padding: 20vw 0 3vw;
+  margin: 1vw 0;
+  width: 100%;
+  height: auto;
+  padding-top: 22vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -350,6 +360,7 @@ section {
 }
 
 .cooperation_wrap {
+  margin: 0vw 0;
   padding-bottom: 11vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -378,6 +389,9 @@ section {
 }
 
 .storeinfo_section {
+  margin: 6vw 0;
+  height: auto;
+  width: 100%;
   padding: 22vw 0 11vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -475,7 +489,7 @@ section {
 .stroy_section {
   margin: 0vw 0;
   padding: 15vw 0 0;
-  height: auto;
+  height: 214vw;
 }
 
 .stroy_section .stroy_wrap {
@@ -551,10 +565,6 @@ section {
   border-radius: 50px;
   color: #fff;
   background-color: #fdbd3a;
-}
-
-.foundedcost_section {
-  padding: 20vw 0 11vw;
 }
 
 .foundedcost_section .cost_wrap {

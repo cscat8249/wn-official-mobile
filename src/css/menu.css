@@ -47,6 +47,7 @@
 }
 
 .menu_section .menu_dep_wrap .dep1_ul .dep1_item a {
+  font-size: 4vw;
   position: relative;
 }
 
@@ -211,7 +212,7 @@
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  padding-top: 12vw;
+  padding-top: 8vw;
 }
 
 .item_reference .modal_inner .pop_content .content .menu_next {
@@ -226,12 +227,9 @@
           user-select: none;
 }
 
-.item_reference .modal_inner .pop_content .content .menu_next:hover {
-  color: #fdbd3a;
-}
-
 .item_reference .modal_inner .pop_content .content .menu_next i {
   font-size: 10vw;
+  color: #fdbd3a;
 }
 
 .item_reference .modal_inner .pop_content .content .menu_prev {
@@ -246,12 +244,9 @@
           user-select: none;
 }
 
-.item_reference .modal_inner .pop_content .content .menu_prev:hover {
-  color: #fdbd3a;
-}
-
 .item_reference .modal_inner .pop_content .content .menu_prev i {
   font-size: 10vw;
+  color: #fdbd3a;
 }
 
 .item_reference .modal_inner .pop_content .content .item_info_content {
@@ -308,9 +303,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_title {
@@ -330,7 +325,7 @@
 }
 
 .item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_title .title {
-  font-size: 5vw;
+  font-size: 6vw;
   font-weight: 700;
 }
 
@@ -342,9 +337,13 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_cooking_info > div {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -355,7 +354,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 1.1vw;
 }
 
 .item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_cooking_info > div > img {
@@ -365,29 +363,39 @@
 
 .item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_cooking_info > div > p {
   text-align: center;
-  font-size: 4vw;
+  font-size: 3.3vw;
+}
+
+.item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_cooking_info .cooking_many_peple_wrap img {
+  width: 10vw;
 }
 
 .item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_cooking_info .cooking_many_peple_wrap .info {
-  padding-top: 29%;
-  line-height: 1.1;
+  padding-top: 2vw;
 }
 
-.item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_cooking_info .cooking_difficulty_wrap {
-  margin-top: 4%;
+.item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_cooking_info .cooking_difficulty_wrap img {
+  margin: 2.3vw 0;
 }
 
 .item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_cooking_info .cooking_difficulty_wrap .info {
-  padding-top: 13%;
+  padding-top: 2vw;
+}
+
+.item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_cooking_info .cooking_timer_wrap img {
+  width: 10vw;
 }
 
 .item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_cooking_info .cooking_timer_wrap .info {
-  padding-top: 32%;
+  padding-top: 2vw;
+}
+
+.item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_cooking_info .cooking_refrigerator_wrap img {
+  width: 10vw;
 }
 
 .item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_cooking_info .cooking_refrigerator_wrap .info {
-  padding-top: 20%;
-  line-height: 1.1;
+  padding-top: 2vw;
 }
 
 .item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_info {
@@ -421,6 +429,7 @@
 }
 
 .item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_info .item_summary .desc {
+  font-size: 3.3vw;
   margin-left: 3vw;
 }
 
@@ -444,6 +453,7 @@
 }
 
 .item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_info .item_origin .desc {
+  font-size: 4vw;
   margin-left: 6.5vw;
 }
 
