@@ -67,19 +67,22 @@ function menuitemViewajax(id, catagory) {
             html += "<p class='title'>상품정보</p>";
             html += "<p class='desc'>";
             // html +=  data.summary[i];
-            const str = data.hashtag[i];
-            const arr = str.split(",");
-            for(let j=0; j < arr.length; j++){
-                html += arr[j];
-            }
+            // const str = data.hashtag[i];
+            // const arr = str.split(",");
+            // for(let j=0; j < arr.length; j++){
+            //     html += arr[j];
+            // }
+            html +=  data.m_summary[i];
             html += "</p>";
             html += "</div>";
+            html += "<span></span>";
             html += "<div class='item_origin'>";
             html += "<p class='title'>원산지</p>";
             html += "<p class='desc'>";
             html += data.origin[i];
             html += "</p>";
             html += "</div>";
+            html += "<span></span>";
             html += "<div class='item_sns'>";
             html += "<p class='title'>스토어 공유</p>";
             if (data.link[i] == '' || data.link[i] == null) {

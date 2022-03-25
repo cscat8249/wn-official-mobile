@@ -147,7 +147,7 @@
 .item_reference .modal_inner {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 49.5%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 90%;
@@ -156,10 +156,11 @@
   -webkit-box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.3);
           box-shadow: 5px 5px 13px rgba(0, 0, 0, 0.3);
   padding-top: 5vw;
-  padding-bottom: 5vw;
+  padding-bottom: 6vw;
   padding-right: 1vw;
   padding-left: 1vw;
   line-height: 1.6;
+  border-radius: 5vw;
 }
 
 .item_reference .modal_inner .pop_content {
@@ -169,7 +170,7 @@
 .item_reference .modal_inner .pop_content .pop_close {
   position: absolute;
   top: -2vw;
-  right: 0;
+  right: 2.2vw;
   width: 8vw;
   height: 8vw;
   border: none;
@@ -212,7 +213,7 @@
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  padding-top: 8vw;
+  padding-top: 5vw;
 }
 
 .item_reference .modal_inner .pop_content .content .menu_next {
@@ -289,7 +290,7 @@
 }
 
 .item_reference .modal_inner .pop_content .content .item_info_content .item_img_wrap img {
-  width: 100%;
+  width: 50vw;
   display: block;
 }
 
@@ -325,7 +326,7 @@
 }
 
 .item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_title .title {
-  font-size: 6vw;
+  font-size: 5.3vw;
   font-weight: 700;
 }
 
@@ -362,6 +363,7 @@
 }
 
 .item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_cooking_info > div > p {
+  font-weight: 500;
   text-align: center;
   font-size: 3.3vw;
 }
@@ -407,78 +409,93 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_info span {
+  margin: 2vw 0;
+  height: 0.8vw;
+  width: 40vw;
+  background-color: #ccc;
 }
 
 .item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_info .item_summary {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  margin-bottom: 3vw;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 1.5vw;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 .item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_info .item_summary .title {
-  font-size: 4vw;
+  font-size: 4.4vw;
   font-weight: 700;
+  margin-bottom: 3vw;
 }
 
 .item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_info .item_summary .desc {
-  font-size: 3.3vw;
-  margin-left: 3vw;
+  text-align: center;
+  font-weight: 500;
+  font-size: 3.8vw;
 }
 
 .item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_info .item_origin {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  margin-bottom: 3vw;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 1.5vw;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 .item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_info .item_origin .title {
-  font-size: 4vw;
+  font-size: 4.4vw;
   font-weight: 700;
+  margin-bottom: 3vw;
 }
 
 .item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_info .item_origin .desc {
-  font-size: 4vw;
-  margin-left: 6.5vw;
+  font-size: 3.8vw;
 }
 
 .item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_info .item_sns {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 .item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_info .item_sns .title {
-  font-size: 4vw;
+  font-size: 4.4vw;
   font-weight: 700;
+  margin-bottom: 3vw;
 }
 
 .item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_info .item_sns a {
-  margin-left: 4vw;
-  width: 6vw;
-  height: 6vw;
+  width: 7vw;
+  height: 7vw;
 }
 
 .item_reference .modal_inner .pop_content .content .item_info_content .item_info_wrap .item_info .item_sns a img {
