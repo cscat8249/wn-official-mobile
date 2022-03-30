@@ -6,7 +6,7 @@ function menuitemViewajax(id, catagory) {
         "id" : id
     }
     $.ajax({
-        url:'http://m.wn-official.com/menu/viewboard2.php',
+        url:'https://m.wn-official.com/menu/viewboard2.php',
         type:'get',
         data: mod,
         dataType:'json',

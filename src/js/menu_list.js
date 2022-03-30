@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         // $('#menu_content').append(html);
         $.ajax({
-            url:'http://m.wn-official.com/menu/item_list.php',
+            url:'https://m.wn-official.com/menu/item_list.php',
             type:'GET',
             data: mod,
             dataType:'json',

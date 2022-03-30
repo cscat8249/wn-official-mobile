@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         swiperContainer.removeAllSlides();
         $.ajax({
-            url:'http://m.wn-official.com/menulist.php',
+            url:'https://m.wn-official.com/menulist.php',
             type:'post',
             data: mod,
             dataType:'json',
