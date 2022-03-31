@@ -203,7 +203,7 @@ header .container .hamburger .line {
 }
 
 .mobile_nav .nav_wrap .mobile_nav_wrap .goto_pcweb_wrap {
-  margin-top: 10vw;
+  margin-top: 12vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -216,10 +216,10 @@ header .container .hamburger .line {
 }
 
 .mobile_nav .nav_wrap .mobile_nav_wrap .goto_pcweb_wrap a {
-  color: #222;
+  color: #444;
   font-weight: 700;
   text-align: center;
-  font-size: 4.5vw;
+  font-size: 4vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -232,7 +232,7 @@ header .container .hamburger .line {
 }
 
 .mobile_nav .nav_wrap .mobile_nav_wrap .goto_pcweb_wrap a img {
-  margin-right: 2vw;
+  margin-right: 3vw;
   width: 8vw;
   height: auto;
   display: block;
