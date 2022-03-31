@@ -215,7 +215,7 @@ header .container .hamburger .line {
           align-items: center;
 }
 
-.mobile_nav .nav_wrap .mobile_nav_wrap .goto_pcweb_wrap a {
+.mobile_nav .nav_wrap .mobile_nav_wrap .goto_pcweb_wrap p {
   color: #444;
   font-weight: 700;
   text-align: center;
@@ -229,9 +229,10 @@ header .container .hamburger .line {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 
-.mobile_nav .nav_wrap .mobile_nav_wrap .goto_pcweb_wrap a img {
+.mobile_nav .nav_wrap .mobile_nav_wrap .goto_pcweb_wrap p img {
   margin-right: 3vw;
   width: 8vw;
   height: auto;
