@@ -111,7 +111,6 @@ header .container .hamburger .line {
   width: 45vw;
   height: 9vw;
   font-size: 0;
-  background: url("/wn-official-mobile/src/img/logo/logo_fix_02.png") no-repeat center/cover;
 }
 
 .mobile_nav .nav_wrap .mobile_nav_header .close_wrap {
@@ -201,4 +200,22 @@ header .container .hamburger .line {
 .mobile_nav .nav_wrap .mobile_nav_wrap .mobile_sns_dep1_ul .mobile_sns_dep1_li img {
   display: block;
   width: 100%;
+}
+
+.mobile_nav .nav_wrap .mobile_nav_wrap .goto_pcweb_wrap {
+  margin-top: 9vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mobile_nav .nav_wrap .mobile_nav_wrap .goto_pcweb_wrap a {
+  text-align: center;
+  font-size: 4.5vw;
 }

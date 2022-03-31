@@ -79,7 +79,7 @@ header {
                 width: 45vw;
                 height: 9vw;
                 font-size: 0;
-                background: url('/wn-official-mobile/src/img/logo/logo_fix_02.png') no-repeat center / cover;
+                // background: url('/wn-official-mobile/src/img/logo/logo_fix_02.png') no-repeat center / cover;
             }
             .close_wrap {
                 position: relative;
@@ -143,6 +143,17 @@ header {
                     }
                 }
                
+            }
+            .goto_pcweb_wrap {
+                margin-top: 9vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                a {
+                    text-align: center;
+                    font-size: 4.5vw;
+                    // font-weight: 700;
+                }
             }
         }
     }
