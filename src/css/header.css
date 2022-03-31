@@ -203,7 +203,7 @@ header .container .hamburger .line {
 }
 
 .mobile_nav .nav_wrap .mobile_nav_wrap .goto_pcweb_wrap {
-  margin-top: 9vw;
+  margin-top: 10vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -216,6 +216,24 @@ header .container .hamburger .line {
 }
 
 .mobile_nav .nav_wrap .mobile_nav_wrap .goto_pcweb_wrap a {
+  color: #222;
+  font-weight: 700;
   text-align: center;
   font-size: 4.5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mobile_nav .nav_wrap .mobile_nav_wrap .goto_pcweb_wrap a img {
+  margin-right: 2vw;
+  width: 8vw;
+  height: auto;
+  display: block;
 }
