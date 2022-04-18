@@ -27,9 +27,12 @@
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+    <script type="text/javascript" src="/wn-official-mobile/src/js/loading.js"></script>
     <script type="text/javascript" src="/wn-official-mobile/src/js/common.js"></script>
     <script type="text/javascript" src="/wn-official-mobile/src/js/smartstor.js"></script>
-    
+    <script type="text/javascript" src="/wn-official-mobile/src/js/smart_affiliateinquiry.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
     <!-- <script>
         if (document.location.protocol == 'http:') {
             document.location.href = document.location.href.replace('http:', 'https:');
@@ -341,6 +344,162 @@
                     <img src="/wn-official-mobile/src/img/smartstor/drawing_text.png" alt="우리집 놀러와 스마트 매장 설계도 안내">
                 </div>
             </section>
+            <section id="smart_affiliateinquiry_section" class="smart_affiliateinquiry_section">
+                <div class="affiliateinquiry_title_wrap">
+                    <h1 class="title">스마트기기 문의</h1>
+                    <p class="desc">프리미엄 유통 전문점 우리집놀러와<br/>스마트기기 상담해보세요!</p>
+                </div>
+                <div class="affiliateinquiry_input_wrap">
+                    <div class="from_wrap">
+                        <form action="" id="affiliateinquiry_form" class="affiliateinquiry_form">
+                            <div class="affiliateinquiry_text_wrap">
+                                <div class="affiliateinquiry_text_one">
+                                    <div class="name_wrap">
+                                        <p class="title">상호명</p>
+                                        <input type="text" name="storname" id="storname" value="">
+                                    </div>
+                                    <div class="tel_wrap">
+                                        <p>연락처</p>
+                                        <input type="number" id="telnumber1" maxlength='3' value="" oninput="maxLengthCheck(this)" inputmode="numeric" pattern="[0-9]*" name="telnumber1">
+                                        <input type="number" id="telnumber2" maxlength='4' value="" oninput="maxLengthCheck(this)" inputmode="numeric" pattern="[0-9]*" name="telnumber2">
+                                        <input type="number" id="telnumber3" maxlength='4' value="" oninput="maxLengthCheck(this)" inputmode="numeric" pattern="[0-9]*" name="telnumber3">
+                                    </div>
+                                    <div class="hopearea_wrap">
+                                        <p class="title">지역은 어디세요?</p>
+                                        <input type="text" id="hopearea">
+                                    </div>
+                                </div>
+                                <div class="affiliateinquiry_text_two">
+                                    <div class="question_wrap">
+                                        <p class="title">문의하시는 분류가 어떻게 되사나요?</p>
+                                    </div>
+                                    <div class="division_chekbox_wrap">
+                                        <div class="check_box_title">
+                                            <p class="title">희망 기계 · 장치</p>
+                                        </div>
+                                        <div class="chekbox_wrap">
+                                            <label class="container">
+                                                <input type="checkbox" value="키오스크" name="smartdevice" id="kiosk">
+                                                키오스크
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="container">
+                                                <input type="checkbox" value="POS기" name="smartdevice" id="POS">
+                                                POS기 
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="container">
+                                                <input type="checkbox" value="스마트TV 23·29" name="smartdevice" id="smartTV2329">
+                                                스마트TV 23” · 29”
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="container">
+                                                <input type="checkbox" value="공기살균기" name="smartdevice" id="airsterilizer">
+                                                공기살균기
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="container">
+                                                <input type="checkbox" value="방문인구 데이터 수집 센서기" name="smartdevice" id="datacollectionsensor">
+                                                방문인구 데이터 수집 센서기
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="container">
+                                                <input type="checkbox" value="미세먼지 알리미" name="smartdevice" id="finedust">
+                                                미세먼지 알리미
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="container">
+                                                <input type="checkbox" value="사이니지TV 43·49" name="smartdevice" id="smartTV4349">
+                                                사이니지TV 43” · 49”
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="container">
+                                                <input type="checkbox" value="AI 무인판매기" name="smartdevice" id="vendingmachine">
+                                                AI 무인판매기
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="container">
+                                                <input type="checkbox" value="전기사용량 절감 센서기" name="smartdevice" id="electricsensor">
+                                                전기사용량 절감 센서기
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="container">
+                                                <input type="checkbox" value="도난방지 출입인증기" name="smartdevice" id="antitheft">
+                                                도난방지 출입인증기
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="container">
+                                                <input type="checkbox" value="스마트 CCTV" name="smartdevice" id="cctv">
+                                                스마트 CCTV
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="hopeprogram_chekbox_wrap">
+                                        <div class="check_box_title">
+                                            <p class="title">희망 프로그램</p>
+                                        </div>
+                                        <div class="chekbox_wrap">
+                                            <label class="container">
+                                                <input type="checkbox" value="무인 결제시스템" name="hopeprogram" id="paymentsystem">
+                                                무인 결제시스템
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="container">
+                                                <input type="checkbox" value="포인트적립" name="hopeprogram" id="earnpoints">
+                                                포인트적립
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="container">
+                                                <input type="checkbox" value="모바일 구매 Application" name="hopeprogram" id="application">
+                                                모바일 구매 Application
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="container">
+                                                <input type="checkbox" value="사이니지TV 화면 디자인" name="hopeprogram" id="tvdesign">
+                                                사이니지TV 화면 디자인
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="container">
+                                                <input type="checkbox" value="전기사용량 데이터 분석 Application" name="hopeprogram" id="electricityApplication">
+                                                전기사용량 데이터 분석 Application
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="container">
+                                                <input type="checkbox" value="Application 광고" name="hopeprogram" id="applicationadvertising">
+                                                Application 광고
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="container">
+                                                <input type="checkbox" value="네이버 블로그 체험단 광고" name="hopeprogram" id="blogadvertising">
+                                                네이버 블로그 체험단 광고
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="container">
+                                                <input type="checkbox" value="SNS 광고" name="hopeprogram" id="snsadvertising">
+                                                SNS 광고
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="checkbox_btn_wrap">
+                                        <div class="chekbox_wrap">
+                                            <label class="container">
+                                                <input type="checkbox" value="ok" name="agreement" id="agreement">
+                                                개인정보수집관련 동의
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                        <button id="form_submit" type="button">문의하기</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div id="loadingImg">
         </div>
         <footer>
             <div class="footer_wrap">

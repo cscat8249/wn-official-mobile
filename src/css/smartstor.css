@@ -628,3 +628,289 @@
   display: block;
   width: 85vw;
 }
+
+#content .smart_affiliateinquiry_section {
+  padding: 20vw 0 11vw;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_title_wrap {
+  margin-bottom: 9.3333vw;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_title_wrap .title {
+  font-size: 7vw;
+  font-weight: 700;
+  margin-bottom: 4%;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_title_wrap .desc {
+  font-size: 4vw;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap {
+  width: 100%;
+  margin: 0;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap {
+  width: 85.3333vw;
+  margin: 0 auto 0;
+  background-color: #fef5f0;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-size: 4vw;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .name_wrap {
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .name_wrap p {
+  padding-bottom: 2%;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .name_wrap input {
+  width: 90%;
+  height: 8vw;
+  padding: 0 10px;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .tel_wrap {
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .tel_wrap p {
+  padding-bottom: 2%;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .tel_wrap input {
+  width: 24%;
+  height: 8vw;
+  padding: 0 10px;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .hopearea_wrap {
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .hopearea_wrap p {
+  padding-bottom: 2%;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .hopearea_wrap input {
+  width: 90%;
+  height: 8vw;
+  padding: 0 10px;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .question_wrap {
+  padding-top: 4%;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .question_wrap p {
+  padding-bottom: 2%;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .division_chekbox_wrap {
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .division_chekbox_wrap .check_box_title {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fdbd3a;
+  color: #fff;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .division_chekbox_wrap .check_box_title .title {
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  padding-left: 2vw;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .division_chekbox_wrap .chekbox_wrap {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  padding-left: 4vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  background-color: #fff;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .division_chekbox_wrap .chekbox_wrap label {
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .hopeprogram_chekbox_wrap {
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .hopeprogram_chekbox_wrap .check_box_title {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fdbd3a;
+  color: #fff;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .hopeprogram_chekbox_wrap .check_box_title .title {
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  padding-left: 2vw;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .hopeprogram_chekbox_wrap .chekbox_wrap {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  padding-left: 4vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  background-color: #fff;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .hopeprogram_chekbox_wrap .chekbox_wrap label {
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .checkbox_btn_wrap {
+  margin-top: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* Hide the browser's default checkbox */
+  /* Create a custom checkbox */
+  /* On mouse-over, add a grey background color */
+  /* When the checkbox is checked, add a "red" background */
+  /* Create the checkmark/indicator (hidden when not checked) */
+  /* Show the checkmark when checked */
+  /* Style the checkmark/indicator */
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .checkbox_btn_wrap .container {
+  display: block;
+  position: relative;
+  padding-left: 9vw;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 4vw;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .checkbox_btn_wrap .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .checkbox_btn_wrap .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 6vw;
+  width: 6vw;
+  background-color: #fff;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .checkbox_btn_wrap .container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .checkbox_btn_wrap .container input:checked ~ .checkmark {
+  background-color: #fdbd3a;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .checkbox_btn_wrap .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .checkbox_btn_wrap .container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .checkbox_btn_wrap .container .checkmark:after {
+  left: 2vw;
+  top: 0.5vw;
+  width: 1vw;
+  height: 3vw;
+  border: solid white;
+  border-width: 0 1vw 1vw 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+#content .smart_affiliateinquiry_section .affiliateinquiry_input_wrap .from_wrap .affiliateinquiry_form .checkbox_btn_wrap button {
+  margin-top: 6%;
+  border: 1px solid #ccc;
+  width: 25vw;
+  height: 10vw;
+  font-size: 4vw;
+  font-weight: 700;
+  border-radius: 50px;
+  color: #fff;
+  background-color: #fdbd3a;
+}

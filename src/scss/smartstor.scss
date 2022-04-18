@@ -403,4 +403,222 @@
             }
         }
     }
+    .smart_affiliateinquiry_section {
+        padding: 20vw 0 11vw;
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        .affiliateinquiry_title_wrap {
+            margin-bottom: 9.3333vw;
+            .title {
+                font-size: 7vw;
+                font-weight: 700;
+                margin-bottom: 4%;
+            }
+            .desc {
+                font-size: 4vw;
+            }
+        }
+        .affiliateinquiry_input_wrap {
+            width: 100%;
+            margin: 0;
+            .from_wrap {
+                width: 85.3333vw;
+                margin: 0 auto 0;
+                background-color: #fef5f0;
+                .affiliateinquiry_form {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: left;
+                    padding-left: 5%;
+                    padding-right: 5%;
+                    padding-top: 10%;
+                    padding-bottom: 10%;
+                    font-size: 4vw;
+                    .name_wrap {
+                        padding-top: 4%;
+                        padding-bottom: 4%;
+                        p {
+                            padding-bottom: 2%;
+                        }
+                        input {
+                            width: 90%;
+                            height: 8vw;
+                            padding: 0 10px;
+                        }
+                    }
+                    .tel_wrap {
+                        padding-top: 4%;
+                        padding-bottom: 4%;
+                        p {
+                            padding-bottom: 2%;
+                        }
+                        input {
+                            width: 24%;
+                            height: 8vw;
+                            padding: 0 10px;
+                        }
+                    }
+                    .hopearea_wrap {
+                        padding-top: 4%;
+                        padding-bottom: 4%;
+                        p {
+                            padding-bottom: 2%;
+                        }
+                        input {
+                            width: 90%;
+                            height: 8vw;
+                            padding: 0 10px;
+                        }
+                    }
+                    .question_wrap {
+                        padding-top: 4%;
+                        // padding-bottom: 4%;
+                        p {
+                            padding-bottom: 2%;
+                        }
+                    }
+                    .division_chekbox_wrap {
+                        padding-top: 4%;
+                        padding-bottom: 4%;
+                        .check_box_title {
+                            border: 1px solid #ccc;
+                            border-radius: 10px;
+                            height: auto;
+                            display: flex;
+                            align-items: center;
+                            background-color: #fdbd3a;
+                            color: #fff;
+                            .title {
+                                padding-top: 2vw;
+                                padding-bottom: 2vw;
+                                padding-left: 2vw;
+                            }
+                        }
+                       
+                        .chekbox_wrap {
+                            padding-top: 4vw;
+                            padding-bottom: 4vw;
+                            padding-left: 4vw;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: right;
+                            background-color: #fff;
+                            label {
+                                padding-top: 1vw;
+                                padding-bottom: 1vw;
+                            }
+                        }
+
+                    }
+
+                    .hopeprogram_chekbox_wrap {
+                        padding-top: 4%;
+                        padding-bottom: 4%;
+                        .check_box_title {
+                            border: 1px solid #ccc;
+                            border-radius: 10px;
+                            height: auto;
+                            display: flex;
+                            align-items: center;
+                            background-color: #fdbd3a;
+                            color: #fff;
+                            .title {
+                                padding-top: 2vw;
+                                padding-bottom: 2vw;
+                                padding-left: 2vw;
+                            }
+                        }
+                        
+                        .chekbox_wrap {
+                            padding-top: 4vw;
+                            padding-bottom: 4vw;
+                            padding-left: 4vw;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: right;
+                            background-color: #fff;
+                            label {
+                                padding-top: 1vw;
+                                padding-bottom: 1vw;
+                            }
+                        }
+                    }
+
+                    .checkbox_btn_wrap {
+                        margin-top: 2%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        .container {
+                            display: block;
+                            position: relative;
+                            padding-left: 9vw;
+                            margin-bottom: 12px;
+                            cursor: pointer;
+                            font-size: 4vw;
+                        }  
+                        /* Hide the browser's default checkbox */
+                        .container input {
+                            position: absolute;
+                            opacity: 0;
+                            cursor: pointer;
+                            height: 0;
+                            width: 0;
+                        }  
+                        /* Create a custom checkbox */
+                        .checkmark {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            height: 6vw;
+                            width: 6vw;
+                            background-color: #fff;
+                        }  
+                        /* On mouse-over, add a grey background color */
+                        .container:hover input ~ .checkmark {
+                            background-color: #ccc;
+                        }
+                        /* When the checkbox is checked, add a "red" background */
+                        .container input:checked ~ .checkmark {
+                            background-color: #fdbd3a;
+                        }
+                        /* Create the checkmark/indicator (hidden when not checked) */
+                        .checkmark:after {
+                            content: "";
+                            position: absolute;
+                            display: none;
+                        }  
+                        /* Show the checkmark when checked */
+                        .container input:checked ~ .checkmark:after {
+                            display: block;
+                        }
+                        /* Style the checkmark/indicator */
+                        .container .checkmark:after {
+                            left: 2vw;
+                            top: 0.5vw;
+                            width: 1vw;
+                            height: 3vw;
+                            border: solid white;
+                            border-width: 0 1vw 1vw 0;
+                            transform: rotate(45deg);
+                        }
+                        button {
+                            margin-top: 6%;
+                            border: 1px solid #ccc;
+                            width: 25vw;
+                            height: 10vw;
+                            font-size: 4vw;
+                            font-weight: 700;
+                            border-radius: 50px;
+                            color: #fff;
+                            background-color: #fdbd3a;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
 }
